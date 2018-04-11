@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+b.asc{
+    color: rgb(0, 89, 255);
+    cursor: pointer;
+}
+b.desc{
+    color: brown;
+    cursor: pointer;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+    text-align: center;
+    
+}
+.box1{
+    display: inline;
+    margin: auto;
+}
+.box2{
+    margin: auto;
+    display: inline-block;
+
+   margin-top: 50px;
+}
+.operation{
+    width: 100%;
+   display: inline-block;
+
+}
+button.btn{
+    width: 80px;
+    height: 35px;
+    cursor: pointer;
+}
+button.sm{
+    width: 30px;
+}
+button.btn:active{
+    background-color: black;
+}
+button.btn-add{
+    color: white;
+    border: none;
+    background-color: teal;
+    margin-right: 10px;
+    
+}
+button.btn-change{
+    color: white;
+    border: none;
+    background-color: rgb(4, 119, 43);
+    margin-right: 10px;
+}
+button.btn-rmall{
+    color: white;
+    border: none;
+    background-color: tomato;
+}
+button.btn-delete{
+    color:white;
+    border: none;
+    background-color:rgba(255, 0, 76, 0.835);
+}
+.table{
+    margin: auto;
+   margin-top: 5px;
+    margin-bottom: 20px;
+}
+.table th{
+    padding: 10px 20px 10px 20px;
+}
+.table tr td{
+    padding: 5px 10px 5px 10px;
+    text-align: center;
+}
